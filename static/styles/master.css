@@ -1,0 +1,138 @@
+body
+{
+  background-color: #F7F5F5;
+}
+
+.poster 
+{
+  background-color: white;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+  -moz-box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+  -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+}
+
+.navbar
+{
+  margin: 30px 0;
+}
+
+.latest-articles,
+{
+  margin-top: 30px;
+}
+
+.latest-articles article
+{
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 11px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+  -moz-box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+  -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+}
+
+.latest-articles article h5, .category-articles article h5 
+{
+  margin-bottom: 0;
+}
+
+.featured-surfers article
+{
+  clear: both;
+  margin: 20px 0;
+}
+
+.featured-surfers article .surfer-name, .featured-surfers article .surfer-country
+{
+  font-weight: bold;
+  margin-left: 5px;
+} 
+
+.featured-surfers article .surfer-country
+{
+  color: gray;
+  font-size: 11px;
+}
+
+.category-articles article
+{
+  height: 150px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 11px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+  -moz-box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+  -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+}
+
+.category-articles article img 
+{
+  margin-right: 10px;
+}
+
+.article .poster
+{
+  margin: 30px 0;
+}
+
+footer 
+{
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 70px;
+  border-top: 1px solid #E5E5E5;
+  background-color: whiteSmoke;
+}
+
+
+
+/* MOBILE */
+body.mobile
+{
+  padding: 0;
+  margin: 0;
+}
+
+.mobile .navbar
+{
+  margin: 0;
+}
+
+.mobile .navbar .brand
+{
+  text-align: center;
+  width: 100%;
+}
+
+.mobile .navbar .nav a
+{
+  padding: 10px 11px 10px;
+}
+
+.mobile .featured-articles h4
+{
+  border-top: 1px dotted gray;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.mobile .featured-articles article
+{
+  margin: 0px 0 20px;
+  padding-top: 10px;
+  border-top: 1px dotted gray;
+}
+
+.mobile .featured-articles article img
+{
+  margin-right: 10px;
+}
+
+.mobile .poster img
+{
+  width: 100%;
+}
